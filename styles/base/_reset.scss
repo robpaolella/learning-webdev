@@ -1,0 +1,48 @@
+// Reset margins and padding
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Normalize typography
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+// Reset list styles
+
+ul, ol {
+    list-style: none;
+}
+
+// Reset anchor styles
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+// Reset form styles
+input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+// Reset button styles
+button {
+    background: none;
+    cursor: pointer;
+}
+
+// Normalize box sizing
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
