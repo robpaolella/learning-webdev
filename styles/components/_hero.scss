@@ -1,0 +1,34 @@
+@use '../abstracts/' as *;
+
+.hero {
+    background-color: $background-color;
+
+    & p {
+        color: $text-color-light;
+    }
+}
+
+.primary-button {
+    margin-right: 15px;
+}
+
+.hero-video-bg {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    & img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+
+    & video {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+}

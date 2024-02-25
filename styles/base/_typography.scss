@@ -1,0 +1,22 @@
+// Import fonts
+@use '../abstracts/' as *;
+
+body {
+    font-family: $primary-font;
+    font-weight: $font-weight-normal;
+    font-size: $p-size;
+    line-height: $p-line-height;
+    color: $text-color-dark;
+}
+
+h1 {
+    font-family: $primary-font;
+    font-size: $h1-size;
+    font-weight: $font-weight-bold;
+    line-height: $h1-line-height;
+    color: $heading-color;
+}
+
+.text-special {
+    color: $text-color-special;
+}

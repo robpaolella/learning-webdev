@@ -1,1 +1,46 @@
+// Font imports
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+// Font families
+$primary-font: 'Outfit', sans-serif;
+$secondary-font: 'Roboto' sans-serif;
+
+//  Font sizes
+$base-font-size: 16px;
+$h1-size: 2.5rem;
+$h2-size: 2.25rem;
+$h3-size: 2rem;
+$h4-size: 1.75rem;
+$h5-size: 1.5rem;
+$h6-size: 1.125rem;
+$p-size: 1.125rem;
+
+// Font weights
+$font-weight-light: 100;
+$font-weight-normal: 300;
+$font-weight-bold: 600;
+
+// Line heights
+$h1-line-height: 4rem;
+$h2-line-height: 3rem;
+$h3-line-height: 2.625rem;
+$h4-line-height: 2.5rem;
+$h5-line-height: 2rem;
+$h6-line-height: 1.5rem;
+$p-line-height: 1.5rem;
+
+// Text colors
+$text-color-dark: #2D3A7F;
+$text-color-light: #E3F3FF;
+$text-color-special: #FF1477;
+$heading-color: #0094ff;
+$button-color: #FFFFFF;
+
+// Text transformations
+$uppercase: uppercase;
+$lowercase: lowercase;
+$capitalize: capitalize;
+
+// Font styles
+$italic: italic;
+$oblique: oblique;

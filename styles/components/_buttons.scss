@@ -1,0 +1,24 @@
+@use '../abstracts/' as *;
+
+button {
+    border-radius: 5px;
+    background: rgb(0,133,255);
+    font-size: 20px;
+    color: $button-color;
+    padding: 6px 30px;
+}
+
+.primary-button {
+    background: linear-gradient(90deg, rgba(0,133,255,1) 0%, rgba(255,20,119,1) 100%);
+
+    & i {
+        margin-left: 15px;
+    }
+}
+
+.secondary-button {
+    background: rgba(255, 20, 119, .2);
+    outline: 1px solid #FF1477;
+    outline-offset: -1px;
+    color: $text-color-special;
+}
